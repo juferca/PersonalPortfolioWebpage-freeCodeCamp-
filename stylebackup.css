@@ -1,0 +1,105 @@
+
+/* Core Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+/* Nav Styles */
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0 50px;
+  background-color: yellow;
+}
+
+nav ul,
+#social-media ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a,
+#social-media a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+nav li,
+#social-media li {
+  flex: 1 1 0;
+}
+
+/* Welcome Section */
+#welcome-section {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+
+/* Projects Section */
+#projects {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-tile {
+  /* display: flex; */
+}
+
+.project-tile iframe {
+  max-width: 100%;
+}
+
+iframe {
+  width: 500px;
+  height: 500px;
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer {
+  display: flex;
+  padding: 32px;
+  background: #000;
+  justify-content: center;
+  text-align: center;
+}
+
+#main-footer {
+  color: #fff;
+}
+
+footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+}
